@@ -1,10 +1,10 @@
 -- ==============================================
--- HIICHILL'S MUSCLE MASTER EXCLUSIVE HUB
--- OWNER: Hiichill | USER ID: 4615224144
+-- JHOJET23 MUSCLE MASTER EXCLUSIVE HUB
+-- OWNER: jhojet23 | USER ID: 1231122380
 -- NO SERVER KICKS + AUTO PET DUPLICATION
 -- ==============================================
-local OWNER_USERNAME = "Hiichill"
-local OWNER_USER_ID = 4615224144
+local OWNER_USERNAME = "jhojet23"
+local OWNER_USER_ID = 1231122380
 local IS_OWNER = game.Players.LocalPlayer.Name == OWNER_USERNAME or game.Players.LocalPlayer.UserId == OWNER_USER_ID
 
 -- ==============================================
@@ -271,7 +271,7 @@ end
 -- ==============================================
 if IS_OWNER then
     print("\n=====================================")
-    print("[HIICHILL'S HUB] ALL FEATURES ACTIVE!")
+    print("[JHOJET23'S HUB] ALL FEATURES ACTIVE!")
     print("=====================================\n")
     
     AdvancedAntiKick()
@@ -285,9 +285,9 @@ if IS_OWNER then
     spawn(AutoDupePets)
     
     print("\n=====================================")
-    print("[HIICHILL'S HUB] READY TO GO! EVERYTHING WORKS!")
+    print("[JHOJET23'S HUB] READY TO GO! EVERYTHING WORKS!")
     print("=====================================")
 else
-    print("[ACCESS DENIED] You are not Hiichill!")
+    print("[ACCESS DENIED] You are not jhojet23!")
     game.Players.LocalPlayer:Kick("You are not authorized to use this hub.")
 end
